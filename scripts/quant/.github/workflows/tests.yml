@@ -1,0 +1,11 @@
+name: fpq-tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install numpy pandas scipy matplotlib scikit-learn pyarrow openpyxl reportlab pytest
+      - run: python -m pytest -q scripts/quant/tests

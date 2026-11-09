@@ -1,0 +1,280 @@
+{
+ "segments": [
+  {
+   "col": "CASH",
+   "start": "1985-12-31",
+   "end": "2021-04-30",
+   "kind": "observed",
+   "source": "letras 1 mes (Ken French)"
+  },
+  {
+   "col": "CASH",
+   "start": "2021-05-03",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "SGOV"
+  },
+  {
+   "col": "QQQ",
+   "start": "1985-12-31",
+   "end": "1999-03-09",
+   "kind": "observed",
+   "source": "Nasdaq-100 con dividendos (índice)"
+  },
+  {
+   "col": "QQQ",
+   "start": "1999-03-10",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "QQQ"
+  },
+  {
+   "col": "SPY",
+   "start": "1985-12-31",
+   "end": "1988-04-06",
+   "kind": "reconstructed",
+   "source": "mercado EE. UU. (Ken French)"
+  },
+  {
+   "col": "SPY",
+   "start": "1988-04-07",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "S&P 500 con dividendos / VOO"
+  },
+  {
+   "col": "TQQQ",
+   "start": "1985-12-31",
+   "end": "2010-02-12",
+   "kind": "synthetic",
+   "source": "3x diario del índice − financiación − comisión 0.95%, diferencial calibrado 0.45%"
+  },
+  {
+   "col": "TQQQ",
+   "start": "2010-02-12",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "ETF real (Tiingo vía ravelab/l-etf)"
+  },
+  {
+   "col": "QLD",
+   "start": "1985-12-31",
+   "end": "2006-06-22",
+   "kind": "synthetic",
+   "source": "2x diario del índice − financiación − comisión 0.95%, diferencial calibrado 0.40%"
+  },
+  {
+   "col": "QLD",
+   "start": "2006-06-22",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "ETF real (Tiingo vía ravelab/l-etf)"
+  },
+  {
+   "col": "UPRO",
+   "start": "1985-12-31",
+   "end": "2009-06-26",
+   "kind": "synthetic",
+   "source": "3x diario del índice − financiación − comisión 0.91%, diferencial calibrado 0.60%"
+  },
+  {
+   "col": "UPRO",
+   "start": "2009-06-26",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "ETF real (Tiingo vía ravelab/l-etf)"
+  },
+  {
+   "col": "SSO",
+   "start": "1985-12-31",
+   "end": "2006-06-22",
+   "kind": "synthetic",
+   "source": "2x diario del índice − financiación − comisión 0.89%, diferencial calibrado 0.55%"
+  },
+  {
+   "col": "SSO",
+   "start": "2006-06-22",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "ETF real (Tiingo vía ravelab/l-etf)"
+  },
+  {
+   "col": "GOLD",
+   "start": "1985-12-31",
+   "end": "2004-11-19",
+   "kind": "reconstructed",
+   "source": "futuro de oro + letras − 0,09%"
+  },
+  {
+   "col": "GOLD",
+   "start": "2004-11-19",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "GLD / GLDM"
+  },
+  {
+   "col": "KMLM",
+   "start": "1985-12-31",
+   "end": "2024-03-28",
+   "kind": "reconstructed",
+   "source": "réplica propia de tendencia (24 futuros sin renta variable, media 250 sesiones, 12% vol, −1,2% anual). NO es KMLMSIM"
+  },
+  {
+   "col": "TLT",
+   "start": "1985-12-31",
+   "end": "2002-07-31",
+   "kind": "reconstructed",
+   "source": "1.23× futuro US20 + letras"
+  },
+  {
+   "col": "TLT",
+   "start": "2002-07-31",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "TLT"
+  },
+  {
+   "col": "IEF",
+   "start": "1985-12-31",
+   "end": "2002-07-31",
+   "kind": "reconstructed",
+   "source": "1.05× futuro US10 + letras"
+  },
+  {
+   "col": "IEF",
+   "start": "2002-07-31",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "IEF"
+  },
+  {
+   "col": "TMF",
+   "start": "1985-12-31",
+   "end": "2026-11-06",
+   "kind": "synthetic",
+   "source": "3x diario de TLT − financiación − 1,06% (sin calibrar contra TMF real)"
+  },
+  {
+   "col": "AVUV",
+   "start": "1985-12-31",
+   "end": "2021-04-30",
+   "kind": "reconstructed",
+   "source": "factores Fama-French ajustados a carteras small value (ME2–5 × BM8–10), −0,6% anual"
+  },
+  {
+   "col": "AVUV",
+   "start": "2021-05-03",
+   "end": "2026-11-06",
+   "kind": "reconstructed",
+   "source": "combinación de IJS e IWN reales ajustada al tramo anterior"
+  },
+  {
+   "col": "AVDV",
+   "start": "1985-12-31",
+   "end": "1990-06-29",
+   "kind": "reconstructed",
+   "source": "gran capitalización Japón/Reino Unido/Hong Kong en USD (NO es small value: proxy débil)"
+  },
+  {
+   "col": "AVDV",
+   "start": "1990-07-02",
+   "end": "2021-03-31",
+   "kind": "reconstructed",
+   "source": "factores Fama-French ex-EE. UU. ajustados a small value, −0,7% anual"
+  },
+  {
+   "col": "AVDV",
+   "start": "2021-03-31",
+   "end": "2026-11-06",
+   "kind": "reconstructed",
+   "source": "combinación de EFA/EWJ/EWU/EWG reales ajustada al tramo anterior"
+  },
+  {
+   "col": "EFA",
+   "start": "1985-12-31",
+   "end": "1990-06-29",
+   "kind": "reconstructed",
+   "source": "Japón/Reino Unido/Hong Kong en USD"
+  },
+  {
+   "col": "EFA",
+   "start": "1990-07-02",
+   "end": "2001-08-24",
+   "kind": "reconstructed",
+   "source": "mercado ex-EE. UU. (Ken French)"
+  },
+  {
+   "col": "EFA",
+   "start": "2001-08-27",
+   "end": "2026-11-06",
+   "kind": "observed",
+   "source": "EFA"
+  },
+  {
+   "col": "BTC",
+   "start": "2010-07-18",
+   "end": "2026-05-24",
+   "kind": "observed",
+   "source": "Coin Metrics (precio de referencia, días de bolsa)"
+  },
+  {
+   "col": "BITU",
+   "start": "2010-07-18",
+   "end": "2026-05-24",
+   "kind": "synthetic",
+   "source": "2x diario de BTC − financiación − 0,95% − 10,8% de coste calibrado en el whitepaper del usuario (no hay BITU real en las fuentes)"
+  }
+ ],
+ "diag": {
+  "TQQQ": {
+   "spread": 0.0045,
+   "corr": 0.999,
+   "te": 0.0293
+  },
+  "QLD": {
+   "spread": 0.004,
+   "corr": 0.996,
+   "te": 0.0396
+  },
+  "UPRO": {
+   "spread": 0.006,
+   "corr": 0.9984,
+   "te": 0.0287
+  },
+  "SSO": {
+   "spread": 0.0055,
+   "corr": 0.9958,
+   "te": 0.0359
+  },
+  "TLT": {
+   "beta_fut": 1.232
+  },
+  "IEF": {
+   "beta_fut": 1.05
+  },
+  "AVUV": {
+   "mkt": 1.011,
+   "smb": 0.955,
+   "hml": 0.579,
+   "r2": 0.984,
+   "tail_IJS": 0.216,
+   "tail_IWN": 0.872,
+   "tail_r2": 0.963
+  },
+  "AVDV": {
+   "mkt": 0.934,
+   "smb": 0.972,
+   "hml": 0.21,
+   "r2": 0.987,
+   "tail": {
+    "EFA": 0.659,
+    "EWJ": 0.102,
+    "EWU": -0.03,
+    "EWG": -0.065
+   },
+   "tail_r2_weekly": 0.674
+  }
+ },
+ "built": "2026-11-09 16:01:12",
+ "end": "2026-11-06"
+}

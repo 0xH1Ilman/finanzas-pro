@@ -1,0 +1,14 @@
+# Obligatorias
+numpy
+pandas
+scipy
+matplotlib
+# Opcionales (el sistema funciona sin ellas, con menos funciones)
+pyarrow        # almacén en Parquet y parquet de ETFs
+scikit-learn   # módulo ml
+openpyxl       # informes en Excel
+reportlab      # informes en PDF
+pyreadr        # reconstruir el panel (datos de Fama-French en .rda)
+rdata          # reconstruir el panel (Nikkei)
+duckdb         # consultas SQL sobre el almacén
+pytest         # batería de pruebas
